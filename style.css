@@ -1,0 +1,47 @@
+.checklist-item {
+    margin-bottom: 5px;
+}
+
+.checklist-item-done {
+    text-decoration: line-through;
+}
+
+#notebook {
+    display: flex;
+}
+
+#sidebar {
+    width: 200px;
+    padding: 10px;
+}
+
+#editor {
+    flex: 1;
+    padding: 10px;
+}
+
+.note-link {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#stickers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sticker {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.sticker textarea {
+    width: 100%;
+}
+
+.sticker button {
+    margin-top: 5px;
+}
